@@ -1,1 +1,6 @@
-# Zoom Clone project to practice JavaScript skills and real-time communication
+# Node JS server starter
+
+## Features
+
+- Babel installed
+- Nodemon for development purpose
