@@ -1,6 +1,4 @@
 import express from "express";
-console.log("hello");
-
 const app = express();
 
 app.get("/", (req, res)=>{
