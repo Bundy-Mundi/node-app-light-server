@@ -4,3 +4,4 @@
 
 - Babel installed
 - Nodemon for development purpose
+- Example api routing setup

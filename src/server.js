@@ -1,8 +1,12 @@
 import express from "express";
+import apiRouter from "./Routers/apiRouter";
 const app = express();
+const PORT = 3000;
 
 app.get("/", (req, res)=>{
     res.send("Server is alive");
 });
 
-app.listen(3000, () => console.log("Listening On: http://localhost:3000"));
+app.use("/api", apiRouter);
+
+app.listen(PORT, () => console.log(`Listening On: http://localhost:${PORT}`));
