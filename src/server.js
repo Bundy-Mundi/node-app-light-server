@@ -7,6 +7,6 @@ app.get("/", (req, res)=>{
     res.send("Server is alive");
 });
 
-app.use("/api", apiRouter);
+app.use("/api/v1", apiRouter);
 
 app.listen(PORT, () => console.log(`Listening On: http://localhost:${PORT}`));
